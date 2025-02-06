@@ -40,7 +40,7 @@ repost:
 <!-- *   [升级CMake](#升级cmake)
     *   [1. 安装](#1-安装)
     *   [2. 替换](#2-替换) -->
-
+{{< figure src="picture/4.jpg">}}
 ## 升级CMake
 
 ### 1. 安装

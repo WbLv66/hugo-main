@@ -37,6 +37,7 @@ repost:
 ---
 
 <!--more-->
+{{< figure src="picture/2.jpg">}}
 ## 配置zsh
 ### 1. 安装zsh
 ```

@@ -38,6 +38,7 @@ repost:
 ---
 
 <!--more-->
+{{< figure src="picture/3.jpg">}}
 ## vscode+clang
 
 优势：代码提示更快；可以进行静态分析

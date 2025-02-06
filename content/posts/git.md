@@ -38,6 +38,7 @@ repost:
 ---
 
 <!--more-->
+{{< figure src="picture/7.jpg">}}
 ## git
 
 ### 1. ssh配置

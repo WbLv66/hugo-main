@@ -1,0 +1,68 @@
+{{/* 添加 一言 https://v1.hitokoto.cn/ */}}
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>一言</title>
+    <style>
+        /* 让整个容器有边框 */
+        .quote-container {
+            border: 2px solid #2B307A;
+            /* 边框颜色 */
+            padding: 10px;
+            width: 90%;
+            margin: 20px auto;
+            border-radius: 8px;
+            /* 圆角 */
+            background-color: #98D4AB;
+            /* 淡灰色背景 */
+        }
+
+        /* 句子左对齐 */
+        #quote {
+            text-align: left;
+            font-size: 22px;
+            font-weight: '400';
+            font-family: "SanJiXingKaiJianTi", sans-serif !important;
+            color: #A186BD;
+            margin: 0;
+            padding-bottom: 5px;
+        }
+
+        /* 出处右对齐 */
+        #source {
+            text-align: right;
+            font-size: 22px;
+            /* font-weight: '400'; */
+            font-family: "SanJiXingKaiJianTi", sans-serif !important;
+            color: #EA627A;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="quote-container">
+        <blockquote id="quote">加载中...</blockquote>
+        <p id="source"></p>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            fetch('https://v1.hitokoto.cn/?&c=d&c=i&c=k')
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('quote').textContent = data.hitokoto;
+                    document.getElementById('source').textContent = '—— ' + (data.from || "未知");
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    document.getElementById('quote').textContent = '获取失败，请刷新重试';
+                });
+        });
+    </script>
+</body>
+
+</html>

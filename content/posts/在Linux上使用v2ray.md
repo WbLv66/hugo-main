@@ -37,6 +37,7 @@ repost:
 ---
 
 <!--more-->
+{{< figure src="picture/9.jpg">}}
 ## 在Linux上使用v2ray
 
 ### 1. 安装 v2ray-core 和 v2rayA

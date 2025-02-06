@@ -38,6 +38,7 @@ repost:
 ---
 
 <!--more-->
+{{< figure src="picture/6.jpg">}}
 ## CLion上使用ros
 
 ### 1. 启动CLion

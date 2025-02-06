@@ -588,15 +588,15 @@
   # Custom partials must be stored in the /layouts/partials/ directory.
   # Depends on open custom blocks https://fixit.lruihao.cn/references/blocks/
   [customPartials]
-    head = []
+    head = ["custom/head.html",]
     menuDesktop = []
     menuMobile = []
     profile = []
-    aside = []
+    aside = ["custom/aside.html",]
     comment = []
     footer = []
     widgets = []
-    assets = []
+    assets = [ "inject/cmpt-flyfish.html",]
     postFooterBefore = []
     postFooterAfter = []
 
@@ -956,4 +956,8 @@
         name = ""
         logoUrl = ""
 
- 
+# 小鱼游动动画
+[flyfish]
+    enable = true
+    light = "rgb(0 119 190 / 10%)"
+    dark = "rgb(255 255 255 / 10%)"
