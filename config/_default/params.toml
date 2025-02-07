@@ -530,7 +530,7 @@
   # FixIt 0.2.14 | NEW GitHub banner in the top-right or top-left corner
   [githubCorner]
     enable = true
-    permalink = "https://github.com/hugo-fixit/FixIt"
+    permalink = "https://github.com/lvwinbor/hugo-main"
     title = "GitHub"
     position = "right" # ["left", "right"]
 
