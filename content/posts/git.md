@@ -39,9 +39,9 @@ repost:
 
 <!--more-->
 {{< figure src="picture/7.jpg">}}
-## git
+# git
 
-### 1. ssh配置
+## 1. ssh配置
 
 创建本地密钥
 

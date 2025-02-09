@@ -39,9 +39,9 @@ repost:
 
 <!--more-->
 {{< figure src="picture/6.jpg">}}
-## CLion上使用ros
+# CLion上使用ros
 
-### 1. 启动CLion
+## 1. 启动CLion
 
 在ROS的根目录下(执行catkin\_make的目录)执行如下(如果已将该路径添加到.bashrc文件则可跳过)：
 `source ./devel/setup.bash`
@@ -56,7 +56,7 @@ repost:
 打开CLion(sh 后面的路径因人而异)
 `sh /home/robot/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/clion.sh`
 
-### 2. CLion 中打开一个 ROS 项目
+## 2. CLion 中打开一个 ROS 项目
 
 一定要选择工作区的 src 目录以从中导入项目
 设置build路径
@@ -67,7 +67,7 @@ repost:
 *   Generation path(构建目录) 项修改如下，路径是自己ROS的build目录
     `/home/robot/catkin_ws/build`
 
-### 3. wsl+Clion+ros
+## 3. wsl+Clion+ros
 
 Toolchain选择WSL
 
