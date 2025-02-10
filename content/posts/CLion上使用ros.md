@@ -38,7 +38,7 @@ repost:
 ---
 
 <!--more-->
-{{< figure src="picture/6.jpg">}}
+{{< figure src="https://cdn.pixabay.com/photo/2023/02/20/20/45/ai-generated-7803075_1280.jpg">}}
 # CLion上使用ros
 
 ## 1. 启动CLion

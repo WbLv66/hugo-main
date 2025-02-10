@@ -36,7 +36,7 @@ repost:
 ---
 
 <!--more-->
-{{< figure src="picture/11.jpg"  >}}
+{{< figure src="https://cdn.pixabay.com/photo/2023/10/21/15/52/ai-generated-8331710_1280.png"  >}}
 # 左值引用与右值引用
 
 ## 1. 左值与右值
@@ -110,7 +110,8 @@ int&& rrt = std::move(t);
 
 ### 4.1 实际意义
 
-解决函数参数的传递中（针对返回的将亡值）传递效率和空间不如意的问题。
+- 解决函数参数的传递中（针对返回的将亡值）传递效率和空间不如意的问题。
+- 在拷贝构造和拷贝赋值中，对左值使用move+右值引用可以将深拷贝转为浅拷贝。
 
 ### 4.2 短板
 
@@ -163,4 +164,4 @@ int main()
 > 实现完美转发需要用到万能引用和 std::forward。
 
 ---
-本笔记参考了「Hoshino373」的文章，原文链接为：https://blog.csdn.net/m0_59938453/article/details/125858335
+本笔记参考了「Hoshino373」的文章，原文链接为：<https://blog.csdn.net/m0_59938453/article/details/125858335>

@@ -37,7 +37,7 @@ repost:
 ---
 
 <!--more-->
-{{< figure src="picture/2.jpg">}}
+{{< figure src="https://cdn.pixabay.com/photo/2022/12/29/17/10/sunset-7685372_1280.jpg">}}
 # 配置zsh
 ## 1. 安装zsh
 ```
