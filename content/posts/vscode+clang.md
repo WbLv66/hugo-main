@@ -38,7 +38,7 @@ repost:
 ---
 
 <!--more-->
-{{< figure src="https://cdn.pixabay.com/photo/2022/12/01/04/34/sunset-7628289_1280.jpg">}}
+{{< figure src="https://cdn.pixabay.com/photo/2024/05/25/15/01/ai-generated-8787240_1280.jpg">}}
 # vscode+clang
 
 优势：代码提示更快；可以进行静态分析
