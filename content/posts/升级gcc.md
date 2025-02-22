@@ -101,12 +101,12 @@ sudo update-alternatives --config gcc
 sudo update-alternatives --config g++
 ```
 ## 4. 更新系统libstdc++版本
-libstdc{?+}+是适应于g{?+}+的标准库,位于`/usr/lib/x86_64-linux-gnu/`下面
+libstdc\++是适应于g\++的标准库,位于`/usr/lib/x86_64-linux-gnu/`下面
 使用指令先看下系统目前都有哪些版本的
 ``
 strings /usr/lib/x86_64-linux-gnu/libstdc++.so.6 | grep GLIBCXX
 ``
-寻找安装高版本gcc目录下的libstdc{?+}+.so.6
+寻找安装高版本gcc目录下的libstdc\++.so.6
 ``sudo find / -name "libstdc++.so.6*"|grep /opt``
 使用之前的指令看看其是否包含需要的版本
 ``strings /opt/gcc-14.1.0/lib64/libstdc++.so.6.0.33 | grep GLIBCXX``
