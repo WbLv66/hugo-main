@@ -52,7 +52,7 @@ sudo ./llvm.sh 14
 # 下载脚本
 wget https://mirrors.tuna.tsinghua.edu.cn/llvm-apt/llvm.sh
 chmod +x llvm.sh
-./llvm.sh 14 all -m https://mirrors.tuna.tsinghua.edu.cn/llvm-apt
+sudo ./llvm.sh 14 all -m https://mirrors.tuna.tsinghua.edu.cn/llvm-apt
 ```
 将clang14和clang++14设为默认版本
 ```
