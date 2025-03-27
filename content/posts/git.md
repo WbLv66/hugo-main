@@ -46,7 +46,7 @@ repost:
 创建本地密钥
 
     cd ~/.ssh
-    ssh-keygen -t rsa -b 4096
+    ssh-keygen -t rsa -C "你的邮箱1@xxx.com"
 
 在`~/.ssh`添加文件config
 
